@@ -1,0 +1,22 @@
+#list3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question input {
+    width: 100%;
+}
+.question p {
+    width: 100%;
+}
+.question button {
+    width: 120px;
+    height: 30px;
+    margin: 10px;
+}
