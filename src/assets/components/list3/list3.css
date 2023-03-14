@@ -2,11 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .question {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 20vw;
+    min-width: 300px;
+    border-bottom:  solid 1px white;
+    padding: 30px;
 }
 
 .question input {
@@ -18,5 +23,11 @@
 .question button {
     width: 120px;
     height: 30px;
-    margin: 10px;
+    margin: 20px 10px;
+    border-radius: 200px;
+    background-color: orange;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
 }
