@@ -6,7 +6,6 @@ interface MyComponentProps{
     produtos: {id: number, categoria: string, name: string}[]
 }
 export function Q4({produtos}: MyComponentProps) {
-    console.log(produtos)
     function q4() {
         
         

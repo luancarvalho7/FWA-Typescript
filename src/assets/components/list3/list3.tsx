@@ -5,6 +5,10 @@ import { Q2 } from './questions/Q2'
 import { Q3 } from './questions/Q3'
 import { Q4 } from './questions/Q4'
 import { Q5 } from './questions/Q5'
+import { Q7 } from './questions/Q7'
+import { Q8 } from './questions/Q8'
+import { Q9 } from './questions/Q9'
+import { Q10 } from './questions/Q10'
 
 export function List3() {
 
@@ -24,6 +28,10 @@ export function List3() {
             <Q3 />
             <Q4 produtos={produtos}/>
             <Q5 produtos={produtos}/>
+            <Q7 />
+            <Q8 />
+            <Q9 />
+            <Q10 />
         </section>
     )
 }
